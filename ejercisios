@@ -1,0 +1,44 @@
+1. hacer un Log con decorator que permitan colocar el level y una fecha quemada
+    el log que imprime en pantalla
+    un decorator para fecha quemadad(que agrege (2022-11) al inicio)
+    un decorator para level erorr que prependa [ERROR]
+    un decorator para level info que prependa [INFO]
+    usar el log construyendo con fecha y error y otro con info
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+solucion.
+1. - una clase que tenga un metodo Log que imprima lo que recibe
+   - una interfaz para ese log
+   - una clase decorador del log que extienda la misma interfaz de log
+   - 3 decoradores info,ERROR,FECHA que prependan antes de llamar
+   - un main donde este un llamada el decorador con error y fecha, y otro con info imprimendo cualquier cosa.
